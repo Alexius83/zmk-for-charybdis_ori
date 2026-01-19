@@ -44,12 +44,12 @@
 
         layer_2 {
             bindings = <
-&rgb_ug RGB_COLOR_HSB(0,100,50)  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &trans  &trans  &trans    &trans  &trans
-                                                         &trans  &trans    &trans
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)     &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) 
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) &rgb_ug RGB_COLOR_HSB(0,100,50) &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50) &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) 
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &trans  &trans  &rgb_ug RGB_COLOR_HSB(0,100,50)     &rgb_ug RGB_COLOR_HSB(0,100,50) s  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) 
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)     &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) 
+                                                 &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50) 
+                                                         &rgb_ug RGB_COLOR_HSB(0,100,50)   &rgb_ug RGB_COLOR_HSB(0,100,50)     &rgb_ug RGB_COLOR_HSB(0,100,50) 
             >;
         };
 
