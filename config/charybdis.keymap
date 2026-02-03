@@ -41,14 +41,13 @@
 
         layer_2 {
             bindings = <
-&kp LS(TILDE)   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)
-&kp TAB         &kp LBKT      &kp RBKT       &kp LS(LBRC)   &kp LS(RBRC)  &kp SEMI         &kp LS(COLON)  &kp SQT       &kp LS(DQT)   &kp RET       &kp LS(PIPE)  &kp EQUAL
-&kp LEFT_SHIFT  &kp FSLH      &kp LS(QMARK)  &kp UP         &kp COMMA     &kp DOT          &kp LS(LT)     &kp LS(GT)    &kp FSLH      &kp STAR      &kp MINUS     &kp PLUS
-&kp LCTRL       &trans        &kp LEFT       &kp DOWN       &kp RIGHT     &trans           &trans         &trans        &trans        &trans        &trans        &trans
-                                             &trans         &kp SPACE     &to 0            &kp LEFT_ALT   &trans
+&kp LS(TILDE)   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)
+&kp TAB         &kp LBKT      &kp RBKT       &kp LS(LBRC)   &kp LS(RBRC)  &kp SEMI         &kp LS(COLON)  &kp SQT        &kp LS(DQT)   &kp RET       &kp LS(PIPE)  &kp EQUAL
+&kp LEFT_SHIFT  &kp FSLH      &kp LS(QMARK)  &kp UP         &kp COMMA     &kp DOT          &kp LS(LT)     &kp LS(GT)     &kp FSLH      &kp STAR      &kp MINUS     &kp PLUS
+&kp LCTRL       &trans        &kp LEFT       &kp DOWN       &kp RIGHT     &trans           &trans         &trans         &trans        &trans        &trans        &trans
+                                             &trans         &kp SPACE     &to 0            &kp LEFT_ALT   &kp BACKSPACE
                                                             &mkp MB1      &mkp MB2         &kp RET
             >;
         };
-
     };
 };
