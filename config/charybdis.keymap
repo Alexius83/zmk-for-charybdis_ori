@@ -48,6 +48,8 @@
                                              &trans         &kp SPACE     &to 0            &kp LEFT_ALT   &kp BACKSPACE
                                                             &mkp MB1      &mkp MB2         &kp RET
             >;
+
+            trackball-bindings = <&tsl>;
         };
     };
 };
