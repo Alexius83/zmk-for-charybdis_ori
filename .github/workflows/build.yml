@@ -2,4 +2,6 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Keep the build workflow compatible with the legacy feature-test fork.
+    # Newer workflows expect Zephyr board qualifiers, absent in Zephyr 3.0.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
